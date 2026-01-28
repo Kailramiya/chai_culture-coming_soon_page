@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="A coming soon page with an email signup." />
+
+		<title>Coming Soon</title>
+
+		<!-- Styles will be added later (this file is currently empty). -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<a class="skip-link" href="#main-content">Skip to content</a>
+
+		<header class="site-header">
+			<div class="site-header__inner">
+				<p class="site-brand" aria-label="Brand name">Chai Culture</p>
+				<p class="site-tagline">Something new is on the way.</p>
+			</div>
+		</header>
+
+		<main id="main-content" class="page" tabindex="-1">
+			<section class="hero" aria-labelledby="hero-title">
+				<div class="hero__inner">
+					<figure class="hero__brand" aria-label="Brand logo">
+						<img
+							class="hero__logo"
+							src="assets/icons/logo.svg"
+							alt="Royal Chai logo"
+							width="120"
+							height="120"
+							decoding="async"
+						/>
+					</figure>
+
+					<p class="hero__badge" aria-label="Launch status">Launching Soon</p>
+					<h1 id="hero-title" class="hero__title">Brew the Royal Tradition</h1>
+					<p class="hero__subtitle">
+						Premium instant chai inspired by royal Indian households.<br />
+						Rich, aromatic, and ready in moments—fit for every day.
+					</p>
+				</div>
+			</section>
+
+			<section class="signup" aria-labelledby="signup-title">
+				<div class="signup__inner">
+					<h2 id="signup-title" class="signup__title">Get notified</h2>
+					<p class="signup__description">
+						Leave your email and we’ll let you know when we go live.
+					</p>
+
+					<form class="signup__form" action="#" method="post" novalidate>
+						<label class="signup__label" for="email">Email address</label>
+						<input
+							class="signup__input"
+							id="email"
+							name="email"
+							type="email"
+							inputmode="email"
+							autocomplete="email"
+							placeholder="you@example.com"
+							required
+						/>
+
+						<button class="signup__button" type="submit">Notify me</button>
+
+						<p class="signup__privacy">
+							No spam. Unsubscribe anytime.
+						</p>
+					</form>
+				</div>
+			</section>
+
+			<section class="social" aria-labelledby="social-title">
+				<div class="social__inner">
+					<h2 id="social-title" class="social__title">Follow updates</h2>
+					<p class="social__description">
+						Follow along for announcements and previews.
+					</p>
+
+					<ul class="social__list" aria-label="Social links">
+						<li class="social__item">
+							<a class="social__link" href="#" rel="noopener noreferrer" aria-label="Follow on X (Twitter)">
+								<svg class="social__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+									<path
+										d="M18.9 2H22l-6.8 7.8L23.3 22h-6.7l-5.2-6.8L5.5 22H2.4l7.3-8.4L1 2h6.8l4.7 6.2L18.9 2Zm-1.2 18h1.7L6.6 3.9H4.7L17.7 20Z"
+									/>
+								</svg>
+								<span class="sr-only">X (Twitter)</span>
+							</a>
+						</li>
+						<li class="social__item">
+							<a class="social__link" href="#" rel="noopener noreferrer" aria-label="Follow on Instagram">
+								<svg class="social__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+									<path
+										d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.8-2.1a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"
+									/>
+								</svg>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+						<li class="social__item">
+							<a class="social__link" href="#" rel="noopener noreferrer" aria-label="Connect on LinkedIn">
+								<svg class="social__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+									<path
+										d="M6.7 6.6a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM4.8 21.6h3.8V8.4H4.8v13.2ZM13 8.4h-3.6v13.2H13v-7.1c0-3.9 5-4.3 5 0v7.1h3.8v-8.4c0-6.5-7.1-6.3-8.8-3.1V8.4Z"
+									/>
+								</svg>
+								<span class="sr-only">LinkedIn</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="site-footer__inner">
+				<p class="site-footer__copyright">
+					<small>&copy; <span id="current-year">2026</span> Your Brand. All rights reserved.</small>
+				</p>
+				<nav class="site-footer__nav" aria-label="Footer">
+					<a class="site-footer__link" href="#">Privacy</a>
+					<a class="site-footer__link" href="#">Terms</a>
+					<a class="site-footer__link" href="#">Contact</a>
+				</nav>
+			</div>
+
+			<noscript>
+				<p class="site-footer__noscript">
+					JavaScript is disabled; the page still works, but interactive features may be limited.
+				</p>
+			</noscript>
+		</footer>
+
+		<script src="js/main.js" defer></script>
+	</body>
+</html>
