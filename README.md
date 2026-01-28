@@ -10,11 +10,11 @@ A premium “coming soon” landing page for an instant chai brand inspired by r
 
 ## Live Link
 
-- https://your-live-link-here.example
+- https://chai-culture-coming-soon-page.vercel.app/
 
 ## GitHub Repo
 
-- https://github.com/your-username/your-repo-name
+- https://github.com/Kailramiya/chai_culture-coming_soon_page
 
 ## Design Choices (Royal Indian Branding)
 
